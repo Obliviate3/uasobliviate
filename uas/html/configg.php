@@ -156,7 +156,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM data");
 <?php //menggunakan koneksi dari config.php
 
 include_once("config.php");
-$result = mysqli_query($mysqli, "SELECT * FROM pasien");
+$result = mysqli_query($mysqli, "SELECT * FROM tbl_pasien");
 ?>
 
 <!DOCTYPE html>
